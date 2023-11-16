@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    background-color:black;
+}
+#conteiner1{
+    height: 900px;
+    width: 100%;
+    background-color: white;    
+}
+#container2{
+    height: 900px;
+    width: 600px;
+    background-color: blue;
+    position: relative;
+    margin: auto;
+
+}
+#botaotexto{
+
+}
+#botaopublicar{
+    width: 80px;
+    height: 20px;
+}
