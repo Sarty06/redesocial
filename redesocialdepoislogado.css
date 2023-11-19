@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    background-color:black;
+    background-color:rgb(177, 177, 177);
 }
 #conteiner1{
     height: 900px;
@@ -15,10 +15,15 @@ body{
     margin: auto;
 
 }
-#botaotexto{
-
-}
 #botaopublicar{
     width: 80px;
     height: 20px;
+}
+#textopublicado{
+    font-size: 18px;
+    color: black;
+    position: relative;
+    display: flex;
+    height: 100px;
+    width: 600px;
 }

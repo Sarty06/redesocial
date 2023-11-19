@@ -8,19 +8,19 @@
 </head>
 <body>
     <div id="conteiner1">
-        <div id="container2">
-           <input id="botaotexto" type="text">
-           <div id="textopublicado"></div>
-           <input id="botaopublicar" type="button" value="PUBLICAR"> 
+     <div id="container2">
+        <input id="botaotexto" type="text">
+        <div id="textopublicado"></div>
+        <input id="botaopublicar" type="button" value="PUBLICAR"> 
         </div>
     </div>
 </body>
 <script>
-    function()
-    {
-    
-        var texto = document.getElementById('botaotexto')
-}
-
-</script>
+    function publicarTexto() {
+      
+      var textoInput = document.getElementById("botaotexto").value;
+      var divTextoPublicado = document.getElementById("textopublicado");
+      divTextoPublicado.textContent = "Publicado: " + textoInput;
+    }
+  </script>
 </html>
